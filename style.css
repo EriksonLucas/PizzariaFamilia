@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+header{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    height: 120px;
+    background-image: linear-gradient(to right,#edb45b, rgb(233, 210, 164),#edb45b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header img{
+    height: 110px;
+}
+.menu {
+    display: flex;
+
+    justify-content: space-around;
+    background-image: linear-gradient(to right,#edb45b, rgb(233, 210, 164),#edb45b);
+    border-bottom: 1px solid rgb(129, 129, 129);
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+    padding-inline-start: 0px;
+}
+.menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    height: 40px;
+}
+.menu li a:hover {
+    border-bottom: 5px solid red;
+    color: gray;
+}
+.slider{
+    flex: 1;
+    overflow: hidden;
+}
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.8s;
+}
+.slider--item{
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+}
+.slide1{
+    margin-left: -100vw;
+}
+.slide2{
+    margin-left: -200vw;
+}
