@@ -13,7 +13,7 @@
 ![Capturar1](https://user-images.githubusercontent.com/73944190/144729072-bb25ebe7-79ce-48e4-8744-6f9b2f6edff5.PNG)
 
 <h3 id=link>Link</h3>
-https://vercel.com/eriksonlucas/pizzaria-horacio
+https://pizzaria-horacio.vercel.app/
 
 <h3 id=objetivo>Objetivo</h3>
 <p>Criar Meu primeiro Projeto Profissional</p>
